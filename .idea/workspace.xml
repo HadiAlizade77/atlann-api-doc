@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5366ff26-f209-4b18-b767-7a8cb0bbc265" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/atlann.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/acl/acl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/md-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/feather.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/feather.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/elements/decore-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/elements/decore-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/file-icons/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/file-icons/jpg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/file-icons/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/file-icons/xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/flags/en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo/favicon-backup.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/1-apex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/2-stack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/3-convex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/4-materialize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-bg-image-demo-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-bg-image-demo-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-image-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/card-img-overlay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/carousel/banner-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/content-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/content-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/content-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/content-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/eCommerce/Algolia-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/eCommerce/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/faq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/forgot-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/graphic-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/kb-article.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/knowledge-base-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/lock-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/login/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/login/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/login/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/login/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/maintenance-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/maintenance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/modern.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/not-authorized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/register.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/reset-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/search-result.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/video-poster.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/pages/vuexy-login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/portrait/small/avatar-s-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/pages/page-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/post-media/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/post-media/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/profile/user-uploads/user-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/raty/star-half-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/raty/star-on-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/slider/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_customClasses.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_extraComponents.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_fixesVuesax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_tailwindFix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_themes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/apps/chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/apps/email.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/apps/simple-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/apps/todo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/featherIcon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/horizontalNavMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/horizontalNavMenuGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/horizontalNavMenuHeader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/horizontalNavMenuItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/verticalNavMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/verticalNavMenuGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/vxAutoSuggest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/vxCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/vxInputGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/vxList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/components/vxTimeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_awesomeSwiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_charts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_contextMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_datePicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_datetimePicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_formWizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_quillEditor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/_vueSelect.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/agGridStyleOverride.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/extraComponents/tree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/layout/_layoutCommon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/layout/_layoutHorizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/layout/_layoutVertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/layout/_theNavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/pages/switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/rtl/_rtlFixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/rtl/_rtlOverrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/themes/_themeDark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/vuexy/themes/_themeSemiDark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/utils/color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/utils/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/utils/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/authService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChangeTimeDurationDropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeatherIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/VxTour.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/excel/ImportExcel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/statistics-cards/StatisticsCardLine.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/statistics-cards/chartConfigs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/timeline/VxTimeline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vx-auto-suggest/VxAutoSuggest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vx-card/VxCard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vx-input-group/VxInputGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vx-list/VxList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/apps/calendar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/apps/chat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/apps/email/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/apps/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/apps/todo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/card/card-analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/card/card-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/card/card-statistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/data-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/table/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/user-management/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/data/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake-db/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/filters/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase/firebaseConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globalComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/axios/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/requests/auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/requests/auth/jwt/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/requests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/i18nData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/TheFooter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/VxBreadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/customizer/TheCustomizer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/horizontal-nav-menu/HorizontalNavMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/horizontal-nav-menu/HorizontalNavMenuGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/horizontal-nav-menu/HorizontalNavMenuHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/horizontal-nav-menu/HorizontalNavMenuItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/TheNavbarHorizontal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/TheNavbarVertical.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/Bookmarks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/CartDropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/I18n.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/NotificationDropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/ProfileDropDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/components/SearchBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/navbar/navbarSearchAndPinList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/vertical-nav-menu/VerticalNavMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/vertical-nav-menu/VerticalNavMenuGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/vertical-nav-menu/VerticalNavMenuItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/vertical-nav-menu/navMenuItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/components/vx-tooltip/VxTooltip.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/full-page/FullPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/main/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/moduleAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/moduleAuthState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/calendar/moduleCalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/calendar/moduleCalendarActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/calendar/moduleCalendarGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/calendar/moduleCalendarMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/calendar/moduleCalendarState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/chat/moduleChat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/chat/moduleChatActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/chat/moduleChatGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/chat/moduleChatMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/chat/moduleChatState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data-list/moduleDataList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data-list/moduleDataListActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data-list/moduleDataListGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data-list/moduleDataListMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data-list/moduleDataListState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/documentation/moduleDocumentation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/documentation/moduleDocumentationActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/documentation/moduleDocumentationGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/documentation/moduleDocumentationMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/documentation/moduleDocumentationState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/eCommerce/moduleECommerce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/eCommerce/moduleECommerceActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/eCommerce/moduleECommerceGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/eCommerce/moduleECommerceMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/eCommerce/moduleECommerceState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/email/moduleEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/email/moduleEmailActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/email/moduleEmailGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/email/moduleEmailMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/email/moduleEmailState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/todo/moduleTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/todo/moduleTodoActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/todo/moduleTodoGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/todo/moduleTodoMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/todo/moduleTodoState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user-management/moduleUserManagement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user-management/moduleUserManagementActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user-management/moduleUserManagementGetters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user-management/moduleUserManagementMutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/user-management/moduleUserManagementState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vendor/Export2Excel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Documentation/NewAPI.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Documentation/Popups/_new_response.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Documentation/ApiList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Documentation/CategoryList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Documentation/DataViewSidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Project/ProjectInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Project/_AppInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Management/Project/_MainInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/_data_tree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/I18n.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/access-control/AccessControl.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/autocomplete/Autocomplete.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/Carousel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/Carousel3dCoverflowEffect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/Carousel3dEffect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselAutoplay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselEffectFade.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselGallery.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselLazyLoading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselMultiRowSlidesLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselMultipleSlidesPerView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselNavigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselPagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselParallax.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselProgress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselResponsiveBreakpoints.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/carousel/CarouselVirtualSlides.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/clipboard/Clipboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/clipboard/ClipboardDirective.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/clipboard/ClipboardWithoutDirective.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/context-menu/ContextMenu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/context-menu/ContextMenuClickNotClose.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/context-menu/ContextMenuSimple.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/Datepicker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerDateMonthViewOnly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerDayViewOnly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerFormat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerHighlightDates.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerInline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerMinMaxDateRange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerMonthViewOnly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerMonthYearViewOnly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerOpenProgramatically.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerRtl.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datepicker/DatepickerTranslation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePicker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerBasic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerDatetime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerInline.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerLocale.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerStartEnd.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/datetime-picker/DatetimePickerTime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/drag-and-drop/DragAndDrop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/drag-and-drop/DragAndDropAnimation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/drag-and-drop/DragAndDropCloneList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/drag-and-drop/DragAndDropMultipleLists.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/drag-and-drop/DragAndDropSimple.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/import-export/Export.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/import-export/ExportSelected.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/import-export/Import.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/quill-editor/QuillEditor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/quill-editor/QuillEditorCustomToolbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/quill-editor/QuillEditorThemeBubble.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/quill-editor/QuillEditorThemeSnow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/Select.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/SelectDropdownOptions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/SelectSelectingValues.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/dropdown-options/DropdownOptionsBasic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/dropdown-options/DropdownOptionsOptionLabels.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/selecting-values/SelectingValuesDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/selecting-values/SelectingValuesSingleMultipleSelection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/select/selecting-values/SelectingValuesTagging.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/star-ratings/StarRatings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/tree/Tree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/tree/TreeAsyncTree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/tree/TreeDropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/extra-components/tree/TreeSearchTree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/Alert.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertClosable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertExample.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/alert/AlertTitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/Avatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/AvatarColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/AvatarDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/AvatarIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/AvatarSize.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/avatar/AvatarWithBadge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/Breadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/BreadcrumbAlignment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/BreadcrumbColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/BreadcrumbDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/BreadcrumbSeparator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/breadcrumb/BreadcrumbSlot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button-group/ButtonGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button-group/ButtonGroupBasic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button-group/ButtonGroupSize.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button-group/ButtonGroupToolbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button-group/ButtonGroupVertical.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/Button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonBorder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonFilled.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonFlat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonGradient.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonIconOnly.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonLineDown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonRelief.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonRouter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonSize.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/button/ButtonTextColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/Chip.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipAddRemove.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipClosable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipCustomizeCloseClearChipIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/chip/ChipTransparent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/Collapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/CollapseAccordion.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/CollapseChangeArrowIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/CollapseDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/CollapseOpenHover.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/collapse/CollapseType.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dialogs/Dialogs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dialogs/DialogsAlert.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dialogs/DialogsConfirm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dialogs/DialogsPrompt.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/Divider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerStyle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerText.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/divider/DividerTextPosition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/Dropdown.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/DropdownButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/DropdownColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/DropdownCustomContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/DropdownDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/DropdownGroupOption.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/dropdownGroupOption/DropdownGroupCollapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/dropdown/dropdownGroupOption/DropdownOptionGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/ListAvatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/ListBasic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/ListContent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/ListHeader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/list/ListIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/Loading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingBackground.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingContained.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/loading/LoadingType.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/NavbarCollapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/NavbarColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/NavbarDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/NavbarInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/navbar/NavbarType.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/Notifications.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/NotificationsDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/NotificationsFixedAndFunctionClick.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/NotificationsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/NotificationsPosition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/notifications/NotificationsTime.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/Pagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationGoTo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationLinksLimit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/pagination/PaginationProgrammaticIncDec.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/popup/Popup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/popup/PopupBackground.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/popup/PopupDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/popup/PopupFullscreen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/popup/PopupInnerPopup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/progress/Progress.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/progress/ProgressColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/progress/ProgressHeight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/progress/ProgressInterminate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarCustom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarGroupCollapsed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarParent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarReduceExpand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/sidebar/SidebarStatic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/Slider.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderChangeMethod.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderRange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderTextFixed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/slider/SliderTicks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/Tabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/TabsAlignments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/TabsColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/TabsDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/TabsIcons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tabs/TabsPosition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/Tooltip.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/TooltipColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/TooltipDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/TooltipDelay.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/TooltipPosition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/tooltip/TooltipTitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/upload/Upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/upload/UploadAutomatic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/upload/UploadDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/components/vuesax/upload/UploadMultiple.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/ComingSoon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Error404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Error500.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Faq.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/ForgotPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Invoice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/KnowledgeBase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/KnowledgeBaseCategory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/KnowledgeBaseCategoryQuestion.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/LockScreen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Maintenance.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/NotAuthorized.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/ResetPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/login/LoginFirebase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/register/Register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/register/RegisterFirebase.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsChangePassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsConnections.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsGeneral.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsNotifications.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/user-settings/UserSettingsSocialLinks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/ag-grid-table/AgGridTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/ag-grid-table/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/CardActions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/CardAnalytics.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/CardBasic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/CardColors.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/CardStatistics.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/card/analyticsData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/Colors.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsChangeColor.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsChangeColorSSR.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsCustomization.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsGradient.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/ColorsTailwind.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/tailwind/TailwindAddMoreColors.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/tailwind/TailwindBackgroundClasses.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/colors/tailwind/TailwindTextClasses.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/data-list/DataViewSidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/data-list/list-view/DataListListView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/data-list/thumb-view/DataListThumbView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridAutoColumnWidth.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridBasicGrid.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridColumnOrder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridColumnSpacing.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridMixedColumnSizes.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridResponsiveGrids.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridSimpleOffset.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridTailwind.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/tailwind/GridWrappingColumns.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridColumnOffset.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridDesignConcept.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridFlexAlignment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridFlexLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridFlexOrder.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridOverview.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridResponsiveLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/GridVuesax.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/flex-alignment/FlexAlignmentBottom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/flex-alignment/FlexAlignmentCenter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/grid/vuesax/flex-alignment/FlexAlignmentTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/Table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableDefault.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableEditDataTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableExpandableData.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableFilterSorter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableMiscellaneous.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableMultipleSelected.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TablePagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableSSR.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableSingleSelected.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableState.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ui-elements/table/TableStriped.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind-v0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themeConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/src/views/Documentation/Popups/_new_response.vue" />
+    </disable_hints>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/views/Documentation/Popups/_new_response.vue" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1hlg7JPmir3UHfolY6qgaNlFrkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/store" />
+      <recent name="$PROJECT_DIR$/src/views/Management/Documentation" />
+      <recent name="$PROJECT_DIR$/src/views/apps/DocumentationTool" />
+      <recent name="$PROJECT_DIR$/src/views/pages/user-settings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/Management/Documetation" />
+      <recent name="$PROJECT_DIR$/src/views/Management/Project" />
+      <recent name="$PROJECT_DIR$/src/views/Management" />
+      <recent name="$PROJECT_DIR$/src/views" />
+      <recent name="$PROJECT_DIR$/src/views/apps/DocumentationTool" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5366ff26-f209-4b18-b767-7a8cb0bbc265" name="Default Changelist" comment="" />
+      <created>1600590927908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600590927908</updated>
+      <workItem from="1600590934401" duration="143000" />
+      <workItem from="1600591280173" duration="2652000" />
+      <workItem from="1600596171869" duration="645000" />
+      <workItem from="1600597120817" duration="6340000" />
+      <workItem from="1600604154452" duration="11667000" />
+      <workItem from="1600619248455" duration="2306000" />
+      <workItem from="1600622620686" duration="6696000" />
+      <workItem from="1600632161834" duration="9703000" />
+      <workItem from="1600674203706" duration="3365000" />
+      <workItem from="1600678270940" duration="4745000" />
+      <workItem from="1600683985324" duration="4720000" />
+      <workItem from="1600689265636" duration="8442000" />
+      <workItem from="1600699800621" duration="4204000" />
+      <workItem from="1600709303885" duration="24158000" />
+      <workItem from="1600735878275" duration="16020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1777" y="540" key="#Inspections" timestamp="1600696069761">
+      <screen x="1622" y="0" width="1050" height="1680" />
+    </state>
+    <state x="1777" y="540" key="#Inspections/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600696069761" />
+    <state x="1622" y="517" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600697681957">
+      <screen x="1622" y="0" width="1050" height="1680" />
+    </state>
+    <state x="1622" y="517" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600697681957" />
+    <state x="0" y="746" width="813" height="732" key="CommitChangelistDialog2" timestamp="1600592095495">
+      <screen x="0" y="710" width="1366" height="768" />
+    </state>
+    <state x="0" y="746" width="813" height="732" key="CommitChangelistDialog2/0.710.1366.768/1622.0.1050.1680@0.710.1366.768" timestamp="1600592095495" />
+    <state x="1950" y="772" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600610447286">
+      <screen x="1622" y="0" width="1050" height="1680" />
+    </state>
+    <state x="1950" y="772" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600610447286" />
+    <state x="299" y="182" width="768" height="586" key="find.popup" timestamp="1600760872230">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="299" y="182" width="768" height="586" key="find.popup/0.36.1366.732@0.36.1366.732" timestamp="1600760872230" />
+    <state x="1852" y="603" width="590" height="514" key="find.popup/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600698560929" />
+    <state x="1727" y="312" width="945" height="738" key="find.popup/0.710.1366.768/1622.0.1680.1050@1622.0.1680.1050" timestamp="1600677426598" />
+    <state x="488" y="1021" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600592005149">
+      <screen x="0" y="710" width="1366" height="768" />
+    </state>
+    <state x="488" y="1021" key="git4idea.remote.GitConfigureRemotesDialog/0.710.1366.768/1622.0.1050.1680@0.710.1366.768" timestamp="1600592005149" />
+    <state x="241" y="213" width="875" height="295" key="run.anything.popup" timestamp="1600733117246">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="241" y="213" width="875" height="295" key="run.anything.popup/0.36.1366.732@0.36.1366.732" timestamp="1600733117246" />
+    <state x="1807" y="406" width="672" height="677" key="run.anything.popup/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600697662034" />
+    <state x="245" y="218" width="875" height="296" key="search.everywhere.popup" timestamp="1600760124329">
+      <screen x="0" y="36" width="1366" height="732" />
+    </state>
+    <state x="245" y="218" width="875" height="296" key="search.everywhere.popup/0.36.1366.732@0.36.1366.732" timestamp="1600760124329" />
+    <state x="1810" y="417" width="672" height="678" key="search.everywhere.popup/0.710.1366.768/1622.0.1050.1680@1622.0.1050.1680" timestamp="1600702732135" />
+  </component>
+</project>
