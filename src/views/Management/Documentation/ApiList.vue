@@ -94,8 +94,6 @@
 </template>
 
 <script>
-import moduleDataList from '@/store/data-list/moduleDataList.js'
-
 export default {
   data () {
     return {

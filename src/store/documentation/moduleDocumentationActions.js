@@ -2,6 +2,7 @@ import firebase from 'firebase/app'
 import router from '@/router'
 
 export default {
+
   appInfo ({dispatch}, payload) {
     const newPayload = {
       appTitle: payload.items.title,
@@ -62,8 +63,11 @@ export default {
   },
   saveNewApi ({dispatch}, payload) {
     const db = firebase.firestore()
-
+    const self = this
     db.collection('documents').add(payload.items).then(function () {
+
+      self.cleanLocalSave() // delete unsaved changes
+
       payload.notify({
         title: 'Successful',
         text: 'New API\'s document saved successfully!',
@@ -82,6 +86,12 @@ export default {
           color: 'danger'
         })
       })
+  },
+  localSave({dispatch}, payload) {
+    localStorage.setItem('localSave', JSON.stringify(payload))
+  },
+  cleanLocalSave() {
+    localStorage.removeItem('localSave')
   }
 
 }
