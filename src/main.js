@@ -18,11 +18,7 @@ Vue.use(Vuesax)
 import axios from './axios.js'
 Vue.prototype.$http = axios
 
-// API Calls
-import './http/requests'
 
-// mock
-import './fake-db/index.js'
 
 // Theme Configurations
 import '../themeConfig.js'

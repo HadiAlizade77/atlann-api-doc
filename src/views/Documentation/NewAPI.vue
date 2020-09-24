@@ -108,7 +108,7 @@
             </div>
 
             <div class="vx-col md:w-1/1 w-full mb-2">
-              <vs-textarea  @input="updateMd" v-model="apiRequests" label="" height="150"/>
+              <vs-textarea  @input="updateMd" v-model="apiRequests" label="" height="300"/>
             </div>
             <!--            editor -->
 
@@ -131,7 +131,7 @@
             <div class="vx-col md:w-1/1 w-full mb-base">
               <ul class="responses-list text-white" v-if="apiResponses.length > 0">
                 <li @click="editResponse(key)" v-for="(response,key) in apiResponses" :key="key" style="float: left"
-                    :class="editableResponseId === key ? 'editing bg-'+ response.color : 'bg-'+ response.color ">
+                    :class="editor.editableResponseId === key ? 'editing bg-'+ response.color : 'bg-'+ response.color ">
                   <small><b>{{ response.code }}</b>
                     <br>
                     {{ response.title }}
@@ -142,29 +142,29 @@
             </div>
             <div class="vx-col md:w-1/1 w-full mb-base">
               <transition name="fade">
-                <div v-if="editableResponseId !== ''">
+                <div v-if="editor.editableResponseId !== ''">
 
                   <vs-row
                     vs-align="center"
                     vs-type="flex" vs-justify="space-around" vs-w="12">
                     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="6">
 
-                  <vs-button @click="addJsonBody('response',editableResponseId)" class="m-5" color="primary" type="flat" icon="add">Json
+                  <vs-button @click="addJsonBody('response',editor.editableResponseId)" class="m-5" color="primary" type="flat" icon="add">Json
                     body
                   </vs-button>
                     </vs-col>
                     <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="6">
 
-                    <vs-button @click="deleteResponse(editableResponseId)"  class="m-5" color="danger" type="flat" icon="delete">Delete Response
+                    <vs-button @click="deleteResponse(editor.editableResponseId)"  class="m-5" color="danger" type="flat" icon="delete">Delete Response
                   </vs-button>
 
                     </vs-col>
                   </vs-row>
-                  <vs-textarea @input="updateMd" v-if="apiResponses[editableResponseId].mdData" v-model="apiResponses[editableResponseId].mdData" height="300px"/>
+                  <vs-textarea @input="updateMd" v-if="apiResponses[editor.editableResponseId].mdData" v-model="apiResponses[editor.editableResponseId].mdData" height="300px"/>
 
                 </div>
               </transition>
-              <vs-button @click="submitForm" type="gradient" color="success" style="float: right" class="ml-2 block">Submit</vs-button>
+              <vs-button @click="submitForm" ref="submitButton" type="gradient" color="success" style="float: right" class="ml-2 block">Submit</vs-button>
             </div>
             <!--            editor -->
 
@@ -175,7 +175,7 @@
         <div class="vx-col md:w-1/2 w-full mb-base">
           <div class="vx-row">
             <div class="vx-col md:w-1/1 w-full mb-base">
-              <div id="md-render" class="markdown-body" v-html="marked">
+              <div id="md-render" class="markdown-body" v-html="parsedMd">
               </div>
 
             </div>
@@ -187,31 +187,20 @@
 </template>
 <script>
 
-import markdown from 'markdown-it'
-import hljs from 'highlight.js'
 import vSelect from 'vue-select'
-import firebase from 'firebase/app'
-import 'firebase/firestore'
+
 //compo
 import addResponse from './Popups/_new_response'
-
+import mdRender from "../../mixins/mdRender";
 export default {
   name: 'NewAPI',
+  mixins : [mdRender],
   data () {
     return {
-      editableResponseId: '',
+      editor:{editableResponseId :''},
       popups: {
         addResponse: false
       },
-      apiMethod: {
-        title: '',
-        color: 'primary'
-      },
-      apiPath: '',
-      apiTitle: '',
-      apiRequests: '',
-      apiResponses: [],
-      marked: '',
       wasSidebarOpen: null,
       methods: [
         {title: 'GET', color: 'primary'},
@@ -226,9 +215,10 @@ export default {
     addResponse,
     vSelect
   },
+  computed : {
+    unSavedChanges(){return this.$store.getters['doc/getLocalSave']},
+  },
   mounted () {
-    const el = document.getElementsByClassName('vs-textarea')
-    el[0].style.minHeight = '130px'
     this.wasSidebarOpen = this.$store.state.reduceButton
     this.$store.commit('TOGGLE_REDUCE_BUTTON', true)
   },
@@ -237,37 +227,62 @@ export default {
   },
   methods: {
     updateMd () {
-      const self = this
-      setTimeout(() => self.mdRender(), 500)
+      setTimeout(() => this.mdRender(), 500)
+    },
+    localSave () {
+      setTimeout(() => {
+        this.$store.dispatch('doc/saveNewApi', {
+          title : this.apiTitle,
+          method : this.apiMethod,
+          path : this.apiPath,
+          responses: this.apiResponses,
+          requests : this.apiRequests
+        })
+      }, 15000)
     },
     checkPopup (e) {
       // comes with popupId
       this.popups[e.popupId] = false
     },
+
+  // new document's form
+    storeApi () {
+      const payload = {
+        items: {
+          title : this.apiTitle,
+          method : this.apiMethod,
+          path : this.apiPath,
+          responses: this.apiResponses,
+          requests : this.apiRequests
+        },
+        notify: this.$vs.notify
+      }
+      this.$store.dispatch('doc/saveNewApi',payload)
+    },
+    submitForm () {
+      //disable submit button
+      this.$refs.submitButton.$el.setAttribute('disabled','true')
+      setTimeout(()=>{ this.$refs.submitButton.$el.removeAttribute('disabled')},1500)
+
+      this.storeApi() //dispatch store action
+    },
     addResponse (newResponse) {
       this.apiResponses.push(newResponse)
       this.updateMd()
     },
-    mdRender () {
-      const md = new markdown({
-        html: true,
-        linkify: true,
-        typographer: true,
-        breaks: true,
-        highlight (str, lang) {
-          if (lang && hljs.getLanguage(lang)) {
-            try {
-              return `<pre class="hljs"><code>${
-                hljs.highlight(lang, str, true).value
-              }</code></pre>`
-            } catch (__) {
-            }
-          }
-          return `<pre class="hljs"><code>${  md.utils.escapeHtml(str)  }</code></pre>`
-        }
-      })
-      this.marked = md.render(this.synthesizeMd())
+    deleteResponse (key) {
+      this.apiResponses.splice(key, 1)
+      this.editor.editableResponseId = ''
+      this.updateMd()
     },
+    setApiMethod (method) {
+      this.apiMethod = method
+      this.updateMd()
+    },
+    editResponse(key) {
+      this.editor.editableResponseId === key ? this.editor.editableResponseId = '' : this.editor.editableResponseId = key
+    },
+  //  markdown helper functions
     addTable (field, type) {
       const toSentenceCase = type.replace(/([A-Z])/g, ' $1')
       const typeTitle = toSentenceCase.charAt(0).toUpperCase() + toSentenceCase.slice(1)
@@ -291,8 +306,8 @@ export default {
           '  "school_name": "school name"\n' +
           '}\n' +
           '```\n'
-      } else if (field === 'response' && this.editableResponseId !== '') {
-        this.apiResponses[this.editableResponseId].mdData +=
+      } else if (field === 'response' && this.editor.editableResponseId !== '') {
+        this.apiResponses[this.editor.editableResponseId].mdData +=
           '\n``` json\n' +
           '{\n' +
           '  "name": "users name",\n' +
@@ -302,51 +317,6 @@ export default {
       }
       this.updateMd()
     },
-    synthesizeMd () {
-
-      const methodTag = `<button type="button" disabled="disabled" class="vs-component mr-3 vs-button vs-button-${  this.apiMethod.color  } vs-button-filled">` +
-        `<span class="vs-button-text vs-button--text">${  this.apiMethod.title  }</span></button>` + `<span class="text-bold">/${  this.apiPath  }</span>`
-      const responses = this.renderResponses()
-        this.fullMd = `# ${  this.apiTitle  }\n${  methodTag  }\n` + '## Requests \n' + `${  this.apiRequests  }${responses}`
-      return this.fullMd
-    },
-    editResponse (key) {
-      this.editableResponseId === key ? this.editableResponseId = '' : this.editableResponseId = key
-    },
-    deleteResponse (key) {
-      this.apiResponses.splice(key, 1)
-      this.editableResponseId = ''
-      this.updateMd()
-    },
-    setApiMethod (method) {
-      this.apiMethod = method
-      this.updateMd()
-    },
-    submitForm () {
-      this.storeApi()
-    },
-    storeApi () {
-      const payload = {
-        items: {
-          title : this.apiTitle,
-          method : this.apiMethod.title,
-          path : this.apiPath,
-          responses: this.apiResponses,
-          fullMd : this.fullMd
-        },
-        notify: this.$vs.notify
-      }
-      this.$store.dispatch('doc/saveNewApi',payload)
-    },
-    renderResponses () {
-      let responses = ''
-      this.apiResponses.forEach((val, index) => {
-        responses += `\n ## Responses \n <button type="button" disabled="disabled" class="vs-component mr-3 vs-button vs-button-${  val.color  } vs-button-filled">` +
-          `<span class="vs-button-text vs-button--text">${  val.code  }</span></button>` + `<span class="text-bold">${  val.title  }</span>` + `\n${
-          val.mdData  }\n`
-      })
-      return responses
-    }
   }
 }
 </script>
@@ -355,24 +325,12 @@ export default {
 @import "../../assets/css/md-style.css";
 @import "./../../../node_modules/highlight.js/styles/a11y-light.css";
 
+.vs-textarea {
+  min-height: 350px !important;
+}
 .btn-drop {
   border-radius: 0px 5px 5px 0px;
   border-left: 1px solid rgba(255, 255, 255, .2);
-}
-
-ul.responses-list li {
-  width: 110px;
-  height: 70px;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 10px;
-  cursor: default;
-  box-shadow: 0px 15px 40px -10px rgba(0, 0, 0, 0.3);
-  transition: all .2s ease;
-  position: relative;
 }
 
 .fade-enter-active, .fade-leave-active {
