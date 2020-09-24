@@ -1,7 +1,7 @@
 
 ## Project setup
 ```
-yarn install
+yarn 
 yarn serve
 ```
 <span style="color: red;">
