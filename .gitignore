@@ -14,4 +14,5 @@ package-lock.json
 docs/.vuepress/dist/
 yarn.lock
 yarn-error.log
+firebase-debug.log
 vuexy-shell-scripts
