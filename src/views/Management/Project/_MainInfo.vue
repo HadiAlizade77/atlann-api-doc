@@ -49,6 +49,13 @@ export default {
       }
     }
   },
+  computed: {
+    appInfo () {return this.$store.getters["doc/getAppInfo"]}
+  },
+  mounted() {
+    this.$store.dispatch('doc/fetchAppInfo')
+    this.appInfo !== {} ? this.app = this.appInfo : 0
+  },
   methods : {
     saveChanges () {
       const payload = {
