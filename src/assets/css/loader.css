@@ -8,12 +8,12 @@
 .loading-logo{
   position: absolute;
   left: calc(50% - 45px);
-  top: 40%;
+  top: 20%;
 }
 .loading {
   position: absolute;
   left: calc(50% - 35px);
-  top: 50%;
+  top: 60%;
   width: 55px;
   height: 55px;
   border-radius: 50%;
