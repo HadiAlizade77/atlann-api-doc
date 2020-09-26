@@ -3,39 +3,10 @@
     <nav class="nav">
       <ul class="list">
         <li>
-          <span>APP TITLE FOR MTATE</span>
+          <span>{{appInfo.title}}</span>
           <ul>
-            <li>
-              <span>Lab</span>
-              <ul>
-                <li>
-                  <span>Graph</span>
-                  <ul>
-                    <li>
-                      <span>Image</span>
-                    </li>
-                    <li>
-                      <span>Design</span>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <span>Blog</span>
-              <ul>
-                <li>
-                  <span>Category</span>
-                  <ul>
-                    <li>
-                      <span>Code</span>
-                    </li>
-                    <li>
-                      <span>Graph</span>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+            <li v-for="cat in categories" :key="cat.id">
+              <span>{{ cat.data.title }}</span>
             </li>
           </ul>
         </li>
@@ -47,12 +18,13 @@
 <script>
 export default {
   name: '_data_tree',
-  props: {
-    level: {
-      type: Number,
-      required: true
-    }
-  }
+  computed: {
+    categories () {return this.$store.getters['doc/getCategories']},
+    appInfo(){return this.$store.getters['doc/getAppInfo']}
+  },
+  mounted() {
+      this.$store.dispatch('doc/fetchAppInfo')
+  },
 }
 </script>
 
