@@ -22,7 +22,6 @@ import moduleDoc from './documentation/moduleDocumentation.js'
 import moduleAuth from './auth/moduleAuth.js'
 
 
-
 export default new Vuex.Store({
   getters,
   mutations,

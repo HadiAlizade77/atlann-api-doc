@@ -87,12 +87,12 @@ const router = new Router({
         {
           path: '/api/add',
           name: 'api-add',
-          component: () => import('./views/Documentation/NewAPI.vue'),
+          component: () => import('./views/Documentation/DocumentEditor.vue'),
           meta: {
             rule: 'editor',
             no_scroll: true
           }
-        },
+        }
       ]
     },
     // =============================================================================
