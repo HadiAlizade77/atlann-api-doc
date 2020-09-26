@@ -19,16 +19,12 @@ import axios from './axios.js'
 Vue.prototype.$http = axios
 
 
-
 // Theme Configurations
 import '../themeConfig.js'
 
 
 // Firebase
 import '@/firebase/firebaseConfig'
-
-
-
 
 
 // ACL
@@ -61,8 +57,6 @@ import i18n from './i18n/i18n'
 
 // Vuexy Admin Filters
 import './filters/filters'
-
-
 
 
 // VeeValidate
