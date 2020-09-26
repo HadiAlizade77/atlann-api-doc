@@ -17,7 +17,7 @@
             <vs-navbar v-model="activeItem" class="p-2">
                 <div slot="title">
                     <vs-navbar-title>
-                        <span>Vuexy</span>
+                        <span>Atlaan.co</span>
                     </vs-navbar-title>
                 </div>
 

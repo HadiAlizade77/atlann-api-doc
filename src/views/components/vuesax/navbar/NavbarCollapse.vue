@@ -17,7 +17,7 @@
             <vs-navbar collapse v-model="activeItem" class="p-2">
 
                 <div slot="title">
-                    <vs-navbar-title><span>Vuexy</span></vs-navbar-title>
+                    <vs-navbar-title><span>Atlaan.co</span></vs-navbar-title>
                 </div>
 
                 <vs-navbar-item index="0">

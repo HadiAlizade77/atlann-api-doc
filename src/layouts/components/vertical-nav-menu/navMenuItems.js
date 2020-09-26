@@ -64,6 +64,6 @@ export default [
         i18n: 'NewApi'
       }
     ]
-  },
+  }
 ]
 
