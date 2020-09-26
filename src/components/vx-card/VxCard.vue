@@ -70,7 +70,6 @@
 <script>
 import Prism from 'vue-prism-component'
 import _color from '@/assets/utils/color.js'
-
 export default{
   name: 'vx-card',
   props: {
