@@ -10,14 +10,6 @@
             <vs-input v-model="newCat.title" class="w-full" icon-pack="feather" icon="icon-edit-2" icon-no-border/>
           </div>
         </div>
-        <div class="vx-row mb-6">
-          <div class="vx-col sm:w-1/3 w-full">
-            <span>Parent Category</span>
-          </div>
-          <div class="vx-col sm:w-2/3 w-full">
-            <v-select label="countryName" :options="countries" :dir="$vs.rtl ? 'rtl' : 'ltr'"/>
-          </div>
-        </div>
         <div class="vx-row">
           <div class="vx-col sm:w-1/3 w-full ml-auto">
             <vs-button @click="createNewCat" class="mr-2 mb-2">
@@ -45,23 +37,8 @@ export default {
   name: 'CategoryList',
   data () {
     return {
-      countries: [
-        {
-          countryCode: 'DE',
-          countryName: 'Germany'
-        },
-        {
-          countryCode: 'AUS',
-          countryName: 'Australia'
-        },
-        {
-          countryCode: 'CA',
-          countryName: 'Canada'
-        }
-      ],
       newCat : {
         title: '',
-        parentCat:''
       }
     }
   },
@@ -76,7 +53,11 @@ export default {
         notify: this.$vs.notify
       }
       this.$store.dispatch('doc/createCategory', payload)
+      this.newCat.title = ''
     }
+  },
+  created() {
+    this.$store.dispatch('doc/fetchCategories')
   }
 }
 </script>
