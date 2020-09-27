@@ -42,12 +42,12 @@ const router = new Router({
         // =============================================================================
         {
           path: '/',
-          redirect: '/dashboard'
+          redirect: '/explore'
         },
         {
-          path: '/dashboard',
-          name: 'dashboard',
-          component: () => import('./views/Dashboard.vue'),
+          path: '/explore',
+          name: 'explore-home',
+          component: () => import('./views/Explore/Home.vue'),
           meta: {
             rule: 'editor'
           }
@@ -76,18 +76,9 @@ const router = new Router({
           }
         },
         {
-          path: '/api/list',
-          name: 'api-list',
-          component: () => import('./views/Management/Documentation/ApiList.vue'),
-          meta: {
-            rule: 'editor',
-            no_scroll: true
-          }
-        },
-        {
           path: '/api/add',
           name: 'api-add',
-          component: () => import('./views/Documentation/DocumentEditor.vue'),
+          component: () => import('./views/Management/Documentation/DocumentEditor.vue'),
           meta: {
             rule: 'editor',
             no_scroll: true
