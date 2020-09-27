@@ -193,7 +193,7 @@ import vSelect from 'vue-select'
 import addResponse from './Popups/_new_response'
 
 //mixins
-import mdRender from '../../mixins/mdRender'
+import mdRender from '../../../mixins/mdRender'
 
 export default {
   name: 'NewAPI',
@@ -369,8 +369,8 @@ export default {
 </script>
 
 <style>
-@import "../../assets/css/md-style.css";
-@import "./../../../node_modules/highlight.js/styles/a11y-light.css";
+@import "../../../assets/css/md-style.css";
+@import "../../../../node_modules/highlight.js/styles/a11y-light.css";
 
 .vs-textarea {
   min-height: 290px !important;
