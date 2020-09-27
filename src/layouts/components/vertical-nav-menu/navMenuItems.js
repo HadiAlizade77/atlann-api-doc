@@ -16,18 +16,10 @@
 
 
 export default [
-  // {
-  //   url: "/apps/email",
-  //   name: "Email",
-  //   slug: "email",
-  //   icon: "MailIcon",
-  //   i18n: "Email",
-  // },
   {
-    url: '/dashboard',
-    name: 'Dashboard',
+    url: '/explore',
+    name: 'Explore Documents',
     icon: 'HomeIcon',
-    i18n: 'Dashboard'
   },
   {
     header: 'Management',
@@ -44,12 +36,6 @@ export default [
         name: 'CategoryList',
         icon: 'FolderIcon',
         i18n: 'Categories'
-      },
-      {
-        url: '/api/list',
-        name: 'APIList',
-        icon: 'LayersIcon',
-        i18n: 'APIList'
       }
     ]
   },
@@ -64,6 +50,6 @@ export default [
         i18n: 'NewApi'
       }
     ]
-  }
+  },
 ]
 
