@@ -7,6 +7,6 @@ export default {
     state.categories.push(category)
   },
   SET_APP_INFO (state,payload){
-    state.appInfo = payload
+    Object.assign(state.appInfo,payload)
   }
 }

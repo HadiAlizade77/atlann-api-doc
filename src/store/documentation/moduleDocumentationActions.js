@@ -1,18 +1,10 @@
 import firebase from 'firebase/app'
-
+import 'firebase/firestore'
 export default {
-
-  appInfo ({commit}, payload) {
-    const newPayload = {
-      appTitle: payload.items.title,
-      contact: {
-        developerName: payload.items.contact.devName,
-        developerMail: payload.items.contact.devMail,
-        developerPhone: payload.items.contact.devPhone
-      }
-    }
+  //app info
+  setAppInfo ({commit}, payload) {
     const db = firebase.firestore()
-    db.collection('app').doc('info').set(newPayload).then(function () {
+    db.collection('app').doc('info').set(payload.items).then(function () {
       commit('SET_APP_INFO',payload.items)
       payload.notify({
         title: 'Successful',
@@ -35,17 +27,14 @@ export default {
   },
   fetchAppInfo({commit}) {
     const db = firebase.firestore()
-    db.collection("app").doc('info').get().then(function(doc) {
-      commit('SET_APP_INFO',{
-        title : doc.data().appTitle,
-        contact: {
-          devName : doc.data().contact.developerName,
-          devMail : doc.data().contact.developerMail,
-          devPhone : doc.data().contact.developerPhone
-        }
-      })
+    db.collection("app").doc('info').get().then(
+      function(doc) {
+      doc.exists ? commit('SET_APP_INFO',doc.data()) : 0
     })
     },
+
+
+  //documentation tool
   createCategory ({commit}, payload) {
     const db = firebase.firestore()
 
@@ -103,7 +92,7 @@ export default {
       })
   },
 
-
+  //application's actions
   localSave ({commit}, payload) {
     localStorage.setItem('localSave', JSON.stringify(payload))
   },

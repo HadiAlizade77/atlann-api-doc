@@ -1,4 +1,11 @@
 export default {
   categories : [],
-  appInfo: {}
+  appInfo: {
+    appTitle: '',
+    contact: {
+      devName: '',
+      devMail: '',
+      devPhone: ''
+    }
+  }
 }
