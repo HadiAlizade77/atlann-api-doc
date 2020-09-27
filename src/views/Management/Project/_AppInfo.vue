@@ -40,10 +40,7 @@ export default {
   data () {
     return {
       versions: ['1.0.0'],
-      username: 'johny_01',
-      name: this.$store.state.AppActiveUser.displayName,
-      email: 'john@admin.com',
-      company: 'SnowMash Technologies Pvt Ltd'
+
     }
   },
   computed: {

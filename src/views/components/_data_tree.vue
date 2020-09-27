@@ -3,7 +3,7 @@
     <nav class="nav">
       <ul class="list">
         <li>
-          <span>{{appInfo.title}}</span>
+          <span>{{appInfo.appTitle}}</span>
           <ul>
             <li v-for="cat in categories" :key="cat.id">
               <span>{{ cat.data.title }}</span>
@@ -17,13 +17,9 @@
 
 <script>
 export default {
-  name: '_data_tree',
   computed: {
     categories () {return this.$store.getters['doc/getCategories']},
     appInfo(){return this.$store.getters['doc/getAppInfo']}
-  },
-  mounted() {
-      this.$store.dispatch('doc/fetchAppInfo')
   },
 }
 </script>
