@@ -30,5 +30,4 @@ by YARN.
  ### what is not working
  * choosing category
  * exploring documents
- * and many more which I wish I Had more time ....
  
